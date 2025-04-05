@@ -57,26 +57,7 @@ To run this application locally, follow these steps (in your terminal):
 streamlit run streamlit_app.py
 
 ## Project Strcuture
-genai-showcase-app/
-├── streamlit_app.py            # Main entry point for the Streamlit app
-├── requirements.txt            # List of Python dependencies
-├── README.md                   # Project documentation
-├── .gitignore                  # Git ignore file
-├── modules/                    # Directory containing modular feature implementations
-│   ├── sentiment_analysis.py
-│   ├── text_generation.py
-│   ├── image_generation.py
-│   ├── image_analysis.py
-│   ├── clustering.py
-│   ├── persuasion.py
-│   ├── ab_testing.py
-│   ├── video_analysis.py
-│   ├── chatbot_agent.py
-├── utils/                      # Utility modules and helper functions
-│   ├── genai.py
-│   ├── chatgpt.py
-│   ├── elevenlabs_client.py
-│   ├── movieai.py
+genai-showcase-app/ ├── streamlit_app.py # Main entry point for the Streamlit app ├── requirements.txt # List of Python dependencies ├── README.md # Project documentation ├── .gitignore # Git ignore file │ ├── modules/ # Modular feature implementations │ ├── sentiment_analysis.py │ ├── text_generation.py │ ├── image_generation.py │ ├── image_analysis.py │ ├── clustering.py │ ├── persuasion.py │ ├── ab_testing.py │ ├── video_analysis.py │ └── chatbot_agent.py │ ├── utils/ # Utility modules and helper functions ├── genai.py ├── chatgpt.py ├── elevenlabs_client.py └── movieai.py
 
 ## Acknowledgements
 
