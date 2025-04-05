@@ -1,0 +1,11 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+
+# Ignore Streamlit secrets
+.streamlit/
+
+# Ignore OS files
+.DS_Store
+
